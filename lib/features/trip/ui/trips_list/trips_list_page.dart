@@ -12,7 +12,7 @@ class TripsListPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'Amplify Trips Planner',
+          'Amplify Charity Planner!',
         ),
         backgroundColor: const Color(constants.primaryColorDark),
       ),
@@ -22,7 +22,7 @@ class TripsListPage extends StatelessWidget {
         child: const Icon(Icons.add),
       ),
       body: const Center(
-        child: Text('Trips List'),
+        child: Text('Items to Order'),
       ),
     );
   }
